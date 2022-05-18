@@ -37,70 +37,84 @@
 
     <!-- MAIN -->
     <section class="about">
-        <div class="about__wrapper">
-        <div class="about__block-left">
-            <h2 class="about__title title">Лаборатория дизайна</h2>
-            <p class="about__text text">Мы профессиональные профессианалы. Наша компания афмгеть какая крутая. Вы не
-                пожалеете что обратились к нам за вообще чем угодно. Реальные сроки, реальные вещи. Приходите.</p>
-            </div>
-        
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__block-left">
+                    <h2 class="about__title title">Лаборатория дизайна</h2>
+                    <p class="about__text text">Мы профессиональные профессианалы. Наша компания афмгеть какая крутая.
+                        Вы не
+                        пожалеете что обратились к нам за вообще чем угодно. Реальные сроки, реальные вещи. Приходите.
+                    </p>
+                </div>
 
-        <img class="about__img" src="./assets/images/hand_295.png" alt="">
-    </div>
+
+                <img class="about__img" src="./assets/images/hand_295.png" alt="">
+            </div>
+        </div>
 
         <button class="about__btn btn">K</button>
     </section>
 
     <!-- SERVICES -->
-    <section class="services">
-        <!-- <svg class="services__icon">
+    <section class="services" id="services">
+        <div class="services__wrapp">
+            <!-- <svg class="services__icon">
                 <use xlink:href="./assets/images/sprite.svg#colba" />
             </svg> -->
-        <img class="services__img" src="./assets/images/колба.png" alt="">
-        <div class="services__block-right">
-            <h2 class="services__title title">зачем это всем? а вам?</h2>
-            <p class="services__text text">нужно. поверьте на слово. нам нужны ваши деньги, а вам наш дизайн. все.</p>
+            <img class="services__img" src="./assets/images/колба.png" alt="">
+            <div class="services__block-right">
+                <h2 class="services__title title">зачем это всем? а вам?</h2>
+                <p class="services__text text">нужно. поверьте на слово. нам нужны ваши деньги, а вам наш дизайн. все.
+                </p>
+            </div>
         </div>
         </div>
     </section>
 
     <!-- DECISION -->
     <section class="decision">
+
         <h3 class="decision__title">колбы решений</h3>
 
-        <div class="decision__images">
-            <div>
-
+        <div class="decision__main">
+            <div class="decision__group">
                 <img src="./assets/images/light.png" alt="">
-                <p>light</p>
+                <p class="decision__group-text">light</p>
             </div>
-            <div>
+            <div class="decision__group">
                 <img src="./assets/images/buisines.png" alt="">
-                <p>buisiness</p>
+                <p class="decision__group-text">buisiness</p>
             </div>
-            <div>
+            <div class="decision__group">
                 <img src="./assets/images/pro.png" alt="">
-                <p>pro</p>
+                <p class="decision__group-text">pro</p>
             </div>
         </div>
     </section>
 
 
     <!-- CONTACTS -->
-    <section class="contacts">
-        <!-- FORM -->
-        <form id="form" method="POST" class="form">
-            <input type="text" placeholder="Имя" name="name" class="form__name" required>
-            <input type="phone" placeholder="Телефон" name="phone" class="form__phone" required>
-            <textarea id="message" name="Message" placeholder="Введите Ваше сообщение" class="form__message"></textarea>
-            <button type="submit" class="form__btn"></button>
-        </form>
+    <section class="contacts" id="contacts">
+        <div class="contacts__wrapp">
+            <!-- FORM -->
+            <form id="form" method="POST" class="form">
+                <input type="text" placeholder="Имя" name="name" class="form__name" required>
+                <input type="phone" placeholder="Телефон" name="phone" class="form__phone" required>
+                <div>
+                    <textarea id="message" name="Message" placeholder="Введите Ваше сообщение"
+                        class="form__message"></textarea>
+                    <button type="submit" class="form__btn"></button>
+                </div>
+            </form>
+        </div>
     </section>
 
     <section class="footer">
-        <p>ооо «лаборатория дизайна» г. Минск, ул. мележа 5\2</p>
-        <p>+375 33 990 3007</p>
-        <p>lab.singulari@gnail.com</p>
+        <div class="footer__wrapp">
+            <p class="footer__text">ооо «лаборатория дизайна» г. Минск, ул. мележа 5\2</p>
+            <p class="footer__text">+375 33 990 3007</p>
+            <p class="footer__text">lab.singulari@gnail.com</p>
+        </div>
 
     </section>
 

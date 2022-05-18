@@ -1,0 +1,151 @@
+body {
+  /* max-width: 2567px; */
+  
+    background-color: rgb(235, 235, 247);
+  
+    z-index: 1;
+  }
+  
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(../fonts/Montserrat-Thin.ttf) format('truetype');
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DOCKERONE";
+  src: url(../fonts/dockertwo.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DOCKERTWO";
+  src: url(../fonts/dockerone.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+.logo {
+  width: 674px;
+  height: 267px;
+}
+
+.title {
+  font-family: DOCKERTWO;
+  font-size: 96px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #002e43;
+}
+
+.text {
+  font-family: Montserrat;
+  font-size: 50px;
+  line-height: 96px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.about {
+  
+  background-image:url(../images/top\ fill.png)
+}
+.about__wrapper {
+  display: flex;
+}
+
+.about__img {
+  width: 1283px;
+  height: 1197px;
+}
+
+.about__text {
+  
+}
+
+.btn {
+  font-family: DOCKERONE;
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ebebf7;
+  width: 441px;
+  height: 144px;
+  opacity: 0.5;
+  background-color: #002e43;
+  border-radius: 10px;
+}
+
+.menu__link {
+  font-family: Montserrat-Regular, sans-serif;
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #002e43;
+}
+
+.services__img {}
+
+.decision__title {
+  font-family: Montserrat;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #002e43;
+}
+
+.form__name,
+.form__phone,
+.form__message {
+  width: 850px;
+  height: 160px;
+  border: 5px solid #000000;
+  box-shadow: inset 0px 6px 30px 0px rgba(0, 0, 0, 0.69);
+  border-radius: 80px 75px 75px 75px;
+  padding-left: 60px;
+  font-family: Montserrat-Thin;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #002e43;
+}
+
+.form__name,
+.form__phone {
+  margin-bottom: 80px;
+}
+
+.form__message {
+  width: 850px;
+  height: 324px;
+  border: 5px solid #000000;
+  border-radius: 80px;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+.form__btn {
+  width: 164px;
+  height: 160px;
+  border: 5px solid #000000;
+  box-shadow: inset 0px 6px 30px 0px rgba(0, 0, 0, 0.69);
+  border-radius: 80px 75px 75px 75px;
+  margin-left: 80px;
+  background-image: url(../images/send_396.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

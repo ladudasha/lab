@@ -45,8 +45,8 @@ window.addEventListener("scroll", function () {
 })
 
 
-// сохранкение цвета
-const spans = document.querySelectorAll('.color');
+// сохранение цвета
+const spans = document.querySelectorAll('.banner__text');
 for (let i = 0; i < spans.length; i++) {
    spans[i].addEventListener('click', ()=> {
      spans[i].classList.toggle('active')

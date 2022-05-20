@@ -15,20 +15,8 @@ for(let anchor of anchors) {
   })
 }
 
-// показать баннер
 
-// let showBanner  = document.querySelector('.banner')
-
-// window.addEventListener("scroll", function () {
-//   if (window.scrollY > 1500) {
-//     showBanner.style.display = 'block'
-//   } else {
-//     showBanner.style.display = 'none'
-//     showBanner.style.position = 'sticky'  
-//     showBanner.style.top = 0    
-//   }
-// })
-
+// показать банер
 
 function onEntry(entry) {
   entry.forEach(change => {
@@ -43,3 +31,15 @@ let elements = document.querySelectorAll('.element-animation');
 for (let elm of elements) {
   observer.observe(elm);
 }
+
+// скрыть баннер
+
+let showBanner  = document.querySelector('.banner')
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 1500) {
+    showBanner.style.display = 'block'
+  } else {
+    showBanner.style.display = 'none' 
+  }
+})

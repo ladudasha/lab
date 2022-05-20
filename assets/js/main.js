@@ -44,16 +44,11 @@ window.addEventListener("scroll", function () {
   }
 })
 
-// изменение и сохранение цвета на клик
 
-// function saveColor() {
-//     document.querySelector(".color").style.color = "red";
-// }
-
-
-const spans = document.qeruSelectorAll('.color');
-for(let i = 0; i < spans.lenght; i++) {
-   spans[i].addEventLisetener('click', ()=> {
+// сохранкение цвета
+const spans = document.querySelectorAll('.color');
+for (let i = 0; i < spans.length; i++) {
+   spans[i].addEventListener('click', ()=> {
      spans[i].classList.toggle('active')
    })
 }

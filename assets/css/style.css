@@ -181,35 +181,34 @@ body {
   margin: 0 auto;  
 }
 
-.banner__text span {
+.color {
   cursor: pointer;
 }
 
-.banner__text span:nth-child(2n) {
+.color.active {
+  color: rgb(235, 235, 247);
+}
+
+.color:nth-child(2n) {
   font-family: "Montserrat-Regular";
 }
 
-.banner__text span:nth-child(2n):hover {
-  color: rgb(235, 235, 247);
-}
-.banner__text span:nth-child(2n):active {
+.color:nth-child(2n):hover {
   color: rgb(235, 235, 247);
 }
 
-.banner__text span:nth-child(2n+1) {
+.color:nth-child(2n+1) {
   font-family: "Montserrat-ExtraBold";
 }
 
-.banner__text span:nth-child(2n+1):hover {
+.color:nth-child(2n+1):hover {
   color: rgb(235, 235, 247);
 }
 
 .element-animation {
   opacity: 0;
 }
-.active {
-  background-color:#002e43;
-}
+
 .element-animation.element-show {
   opacity: 1;
   transition: opacity 1s;

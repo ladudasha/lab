@@ -43,3 +43,17 @@ window.addEventListener("scroll", function () {
     showBanner.style.display = 'none' 
   }
 })
+
+// изменение и сохранение цвета на клик
+
+// function saveColor() {
+//     document.querySelector(".color").style.color = "red";
+// }
+
+
+const spans = document.qeruSelectorAll('.color');
+for(let i = 0; i < spans.lenght; i++) {
+   spans[i].addEventLisetener('click', ()=> {
+     spans[i].classList.toggle('active')
+   })
+}

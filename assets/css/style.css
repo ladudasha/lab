@@ -174,7 +174,6 @@ body {
 .banner__text {
   font-size: 56px;
   line-height: 1.2;
-  font-weight: 400;
   text-transform: uppercase;
   color: #c0fd00;
   text-align: center;
@@ -182,21 +181,34 @@ body {
   margin: 0 auto;  
 }
 
-.banner__text-bold {
+.banner__text span {
+  cursor: pointer;
+}
+
+.banner__text span:nth-child(2n) {
+  font-family: "Montserrat-Regular";
+}
+
+.banner__text span:nth-child(2n):hover {
+  color: rgb(235, 235, 247);
+}
+.banner__text span:nth-child(2n):active {
+  color: rgb(235, 235, 247);
+}
+
+.banner__text span:nth-child(2n+1) {
   font-family: "Montserrat-ExtraBold";
 }
 
-.banner__text-thin {
-  font-family: "Montserrat-Regular";  
-}
-
-.banner__text-bold:hover,
-.banner__text-thin:hover {
+.banner__text span:nth-child(2n+1):hover {
   color: rgb(235, 235, 247);
 }
 
 .element-animation {
   opacity: 0;
+}
+.active {
+  background-color:#002e43;
 }
 .element-animation.element-show {
   opacity: 1;
